@@ -2,3 +2,5 @@
 lib/\.DS_Store
 
 lib/macos/\.DS_Store
+
+\.DS_Store

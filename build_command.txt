@@ -1,1 +1,12 @@
+
+Windows:
+
 b2 install --with-serialization --with-system --with-date_time --with-regex variant=debug,release link=static threading=multi runtime-link=shared address-model=64 -j4
+
+b2 install --with-serialization --with-system --with-date_time --with-regex variant=debug,release link=static threading=multi runtime-link=shared address-model=32 -j4
+
+MacOS:
+
+./b2 install --with-serialization --with-system --with-date_time --with-regex variant=release link=static threading=multi runtime-link=shared address-model=64 -j4
+
+./b2 install --with-serialization --with-system --with-date_time --with-regex variant=debug link=static threading=multi runtime-link=shared address-model=64 -j4
