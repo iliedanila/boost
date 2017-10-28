@@ -1,0 +1,1 @@
+b2 install --with-serialization --with-system --with-date_time --with-regex variant=debug,release link=static threading=multi runtime-link=shared address-model=64 -j4
